@@ -7,5 +7,7 @@ public class Main {
         System.out.println("My first string is: " + myString);
         myString = myString + "Now I have 2 sentences!!";
         System.out.println("My longer string is: " + myString);
+        myString = myString + " \u00A9 2019";
+        System.out.println("My copyrighted string is: " + myString);
     }
 }
